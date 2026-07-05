@@ -1,1 +1,2 @@
-document.querySelectorAll('.btn').forEach(b=>b.addEventListener('mouseover',()=>b.style.filter='brightness(1.1)'));
+// JavaScript separado
+window.addEventListener('load',()=>document.body.classList.add('loaded'));
