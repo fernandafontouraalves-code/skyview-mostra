@@ -1,0 +1,1 @@
+document.querySelectorAll('.btn').forEach(b=>b.addEventListener('mouseover',()=>b.style.filter='brightness(1.1)'));
